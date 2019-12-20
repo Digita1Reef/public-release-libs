@@ -3,10 +3,11 @@
   <groupId>io.imox.features</groupId>
   <artifactId>otapromotionbuilder</artifactId>
   <versioning>
-    <release>2.0.5</release>
+    <release>2.0.6-at</release>
     <versions>
       <version>2.0.5</version>
+      <version>2.0.6-at</version>
     </versions>
-    <lastUpdated>20191216173819</lastUpdated>
+    <lastUpdated>20191220144516</lastUpdated>
   </versioning>
 </metadata>
