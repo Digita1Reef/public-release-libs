@@ -3,7 +3,7 @@
   <groupId>io.imox.features</groupId>
   <artifactId>ecfone</artifactId>
   <versioning>
-    <release>2.2.85-sandbox</release>
+    <release>2.2.86-sandbox</release>
     <versions>
       <version>2.2.9</version>
       <version>2.2.10</version>
@@ -82,7 +82,8 @@
       <version>2.2.83-sandbox</version>
       <version>2.2.84-sandbox</version>
       <version>2.2.85-sandbox</version>
+      <version>2.2.86-sandbox</version>
     </versions>
-    <lastUpdated>20201030175025</lastUpdated>
+    <lastUpdated>20201030201140</lastUpdated>
   </versioning>
 </metadata>
