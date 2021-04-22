@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.imox.features</groupId>
+  <artifactId>recolecdata</artifactId>
+  <versioning>
+<<<<<<< HEAD
+    <release>1.0.5</release>
+    <versions>
+      <version>0.0.36</version>
+      <version>1.0.0</version>
+      <version>1.0.1</version>
+      <version>1.0.2</version>
+      <version>1.0.3</version>
+      <version>1.0.4</version>
+      <version>1.0.5</version>
+    </versions>
+    <lastUpdated>20190208061226</lastUpdated>
+=======
+    <release>1.0.14</release>
+    <versions>
+      <version>1.0.13</version>
+      <version>1.0.14</version>
+    </versions>
+    <lastUpdated>20200107213837</lastUpdated>
+>>>>>>> 6e5f8642f6c55725a69bd0a034c2f4e60ff7eb0b
+  </versioning>
+</metadata>
