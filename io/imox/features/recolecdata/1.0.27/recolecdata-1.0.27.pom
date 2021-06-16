@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.imox.features</groupId>
-  <artifactId>otapromotionbuilder</artifactId>
-  <version>2.0.27</version>
+  <artifactId>recolecdata</artifactId>
+  <version>1.0.27</version>
   <packaging>aar</packaging>
-  <name>OtaPromotionBuilder</name>
+  <name>DeviceInfoLib</name>
   <description></description>
   <url></url>
   <licenses>
@@ -19,8 +19,8 @@
   <developers>
     <developer>
       <id>1</id>
-      <name>IMOX</name>
-      <email>achavez@epictechcorp.com</email>
+      <name>Elmer Palacios</name>
+      <email>epalacios@imox.io</email>
     </developer>
   </developers>
   <scm>
@@ -36,9 +36,15 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>androidx.work</groupId>
-      <artifactId>work-runtime</artifactId>
-      <version>2.5.0</version>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-extensions</artifactId>
+      <version>2.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.lifecycle</groupId>
+      <artifactId>lifecycle-common-java8</artifactId>
+      <version>2.3.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -48,40 +54,40 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>androidx.constraintlayout</groupId>
-      <artifactId>constraintlayout</artifactId>
-      <version>2.0.4</version>
+      <groupId>androidx.work</groupId>
+      <artifactId>work-runtime</artifactId>
+      <version>2.5.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>androidx.cardview</groupId>
-      <artifactId>cardview</artifactId>
-      <version>1.0.0</version>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.10.0.pr1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>androidx.recyclerview</groupId>
-      <artifactId>recyclerview</artifactId>
-      <version>1.2.0</version>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.10.0.pr1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.bumptech.glide</groupId>
-      <artifactId>glide</artifactId>
-      <version>4.12.0</version>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.10.0.pr1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.github.firdausmaulan</groupId>
-      <artifactId>GlideSlider</artifactId>
-      <version>1.5.1</version>
+      <groupId>androidx.ads</groupId>
+      <artifactId>ads-identifier</artifactId>
+      <version>1.0.0-alpha04</version>
       <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>com.github.bumptech.glide</groupId>
-        </exclusion>
-      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>28.0-android</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>com.google.code.gson</groupId>
